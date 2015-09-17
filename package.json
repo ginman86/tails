@@ -1,0 +1,17 @@
+{
+  "name": "tails",
+  "version": "1.0.0",
+  "description": "Cocktail recommender",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brain": "^0.7.0",
+    "lodash": "^3.10.1",
+    "prompt": "^0.2.14"
+  }
+}

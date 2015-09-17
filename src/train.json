@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Vesper",
+    "glass": "martini",
+    "category": "Before Dinner Cocktail",
+    "ingredients": [
+      {
+        "cl": 6,
+        "ingredient": "Gin"
+      },
+      {
+        "cl": 1.5,
+        "ingredient": "Vodka"
+      },
+      {
+        "cl": 0.75,
+        "ingredient": "Lillet Blonde"
+      }
+    ],
+    "garnish": "Lemon twist",
+    "preparation": "Shake and strain into a chilled cocktail glass.",
+    "output": { "good": 1, "bad": 0 }
+  },
+  {
+    "name": "Bacardi",
+    "glass": "martini",
+    "category": "Before Dinner Cocktail",
+    "ingredients": [
+      {
+        "cl": 4.5,
+        "ingredient": "White rum",
+        "label": "Bacardi White Rum"
+      },
+      {
+        "cl": 2,
+        "ingredient": "Lime juice"
+      },
+      {
+        "cl": 1,
+        "ingredient": "Syrup",
+        "label": "Grenadine"
+      }
+    ],
+    "preparation": "Shake with ice cubes. Strain into chilled cocktail glass.",
+    "output": { "good": 0, "bad": 1 }
+  },
+  {
+    "name": "Negroni",
+    "glass": "old-fashioned",
+    "category": "Before Dinner Cocktail",
+    "ingredients": [
+      {
+        "cl": 3,
+        "ingredient": "Gin"
+      },
+      {
+        "cl": 3,
+        "ingredient": "Campari"
+      },
+      {
+        "cl": 3,
+        "ingredient": "Vermouth",
+        "label": "Sweet red vermouth"
+      }
+    ],
+    "garnish": "Half an orange slice",
+    "preparation": "Build into old-fashioned glass filled with ice. Stir gently.",
+    "output": { "good": 1, "bad": 0 }
+  },
+  {
+    "name": "Rose",
+    "glass": "martini",
+    "ingredients": [
+      {
+        "cl": 2,
+        "ingredient": "Kirsch"
+      },
+      {
+        "cl": 4,
+        "ingredient": "Vermouth",
+        "label": "Dry vermouth"
+      },
+      {
+        "special": "3 dashes Strawberry syrup"
+      }
+    ],
+    "preparation": "Stir all ingredients with ice and strain into a cocktail glass.",
+    "output": { "good": 0, "bad": 1 }
+  },
+  {
+    "name": "Old Fashioned",
+    "glass": "old-fashioned",
+    "category": "Before Dinner Cocktail",
+    "ingredients": [
+      {
+        "cl": 4.5,
+        "ingredient": "Whiskey",
+        "label": "Bourbon or rye whiskey"
+      },
+      {
+        "special": "2 dashes Angostura Bitters"
+      },
+      {
+        "special": "1 sugar cube"
+      },
+      {
+        "special": "Few dashes plain water"
+      }
+    ],
+    "garnish": "Orange slice and cherry",
+    "preparation": "Place sugar cube in old-fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolve. Fill the glass with ice cubes and add whisky.",
+    "output": { "good": 0, "bad": 1 }
+  },
+  {
+    "name": "Tuxedo",
+    "glass": "martini",
+    "category": "All Day Cocktail",
+    "ingredients": [
+      {
+        "cl": 3,
+        "ingredient": "Gin",
+        "label": "Old Tom Gin"
+      },
+      {
+        "cl": 3,
+        "ingredient": "Vermouth",
+        "label": "Dry vermouth"
+      },
+      {
+        "special": "1/2 bar spoon Maraschino"
+      },
+      {
+        "special": "1/4 bar spoon Absinthe"
+      },
+      {
+        "special": "3 dashes Orange Bitters"
+      }
+    ],
+    "garnish": "Cherry and lemon twist",
+    "preparation": "Stir all ingredients with ice and strain into cocktail glass.",
+    "output": { "good": 1, "bad": 0 }
+  },
+  { "name": "Russian Spring Punch",
+    "glass": "highball",
+    "category": "Sparkling Cocktail",
+    "ingredients": [
+      { "cl": 2.5,
+        "ingredient": "Vodka" },
+      { "cl": 2.5,
+        "ingredient": "Lemon juice" },
+      { "cl": 1.5,
+        "ingredient": "Créme liqueur",
+        "label": "Créme de Cassis" },
+      { "cl": 1,
+        "ingredient": "Syrup",
+        "label": "Sugar syrup" }
+    ],
+    "garnish": "Lemon slice and a blackberry",
+    "preparation": "Shake the ingredients and pour into highball glass. Top with Sparkling wine.",
+    "output": { "good": 0, "bad": 1 }
+  }
+]
