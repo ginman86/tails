@@ -9,7 +9,7 @@ trainer.train(function(trainingData) {
 	var results = []
 	net.train(trainingData)
 
-  var test = trainer.classify(testData[testData.length - 2])
+  var test = trainer.classify(testData[testData.length - 4])
 
   console.log(test)
 	console.log(net.run(test))
